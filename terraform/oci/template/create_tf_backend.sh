@@ -24,7 +24,7 @@ S3_ENDPOINT=https://${NAMESPACE}.compat.objectstorage.${REGION}.oraclecloud.com
 
 
 # Create bucket
-oci os bucket create --compartment-id <compartment_id> --name $BUCKET_NAME
+oci os bucket create --compartment-id $compartment_id --name $BUCKET_NAME
 
 echo "export REMOTE_STATE_S3_BUCKET=$BUCKET_NAME" > tf.sh
 echo "export REMOTE_STATE_S3_REGION=$REGION" >> tf.sh

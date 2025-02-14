@@ -20,3 +20,4 @@ terragrunt
 # Ignoring test directories
 **/kitchen
 tf.sh
+**/dev
