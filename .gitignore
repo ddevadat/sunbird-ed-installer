@@ -13,8 +13,10 @@ vendor
 terragrunt
 .DS_Store
 *.terrahelpbkp
+.terraform.lock.hcl
 
 # Ignoring common charts
 **/charts/common
 # Ignoring test directories
 **/kitchen
+tf.sh
