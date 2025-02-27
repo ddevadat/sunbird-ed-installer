@@ -33,6 +33,9 @@ echo "export AWS_REGION=$REGION" >> tf.sh
 echo "export AWS_ACCESS_KEY_ID=$aws_access_key_id" >> tf.sh
 echo "export AWS_SECRET_ACCESS_KEY=$aws_secret_access_key" >> tf.sh
 echo "export AWS_ENDPOINT_URL_S3=$S3_ENDPOINT" >> tf.sh
+echo "export OCI_COMPARTMENT_ID=$compartment_id" >> tf.sh
+echo "export OCI_REGION=$REGION" >> tf.sh
+echo "export ENVIRONMENT=$environment" >> tf.sh
 
 echo -e "\nIf you need to run terraform commands manually, run the following command in your terminal to export the necessary environment variables"
 

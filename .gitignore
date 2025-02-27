@@ -21,3 +21,4 @@ terragrunt
 **/kitchen
 tf.sh
 **/dev
+environment.yaml
